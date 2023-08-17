@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/bg_coin">
+
+        <TextView
+            android:id="@+id/tv_loaithu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/img_loaithu_edt"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#00BCD4"/>
+
+        <ImageView
+            android:id="@+id/img_loaithu_edt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/img_loaithu_delete"
+            android:src="@drawable/edite_vector"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/img_loaithu_delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/delete_vector" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

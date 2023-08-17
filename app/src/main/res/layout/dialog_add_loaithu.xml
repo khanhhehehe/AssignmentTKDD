@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/layout_dialog_add_lt">
+
+    <TextView
+        android:text="LOẠI THU"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edt_product_lt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên:"
+        android:backgroundTint="#2196F3"/>
+</LinearLayout>

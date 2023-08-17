@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="KHOẢN CHI"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edt_khoanchi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số tiền:"
+        android:backgroundTint="#2196F3"
+        android:layout_marginBottom="10dp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_spinner"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp">
+        <Spinner
+            android:id="@+id/spinner_khoanchi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:background="@android:color/transparent"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_arrow_drop_down_circle_24"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/spinner_khoanchi" />
+    </RelativeLayout>
+
+</LinearLayout>
